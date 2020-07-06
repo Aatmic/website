@@ -1,133 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
+    <div class="narrow">
     <header>
-        <div class="container">
-  
-        <nav id="main-nav" class="flex items-center justify-between">
-            <div class="left flex items-center ">
-          
-                <div>
-               <a href="#">Home</a>
-               <a href="#about">About</a>
-               <a href="#expert">MyExpertise</a>
-               <a href="#project">Projects</a>
-               
-              
-              
-                </div>    
-               </div> 
+        <div class="container ">
 
-         
-            <div class="right">
-                
-                <button  class="btn btn-primary " ><a href="#contact">Contact</a></button> 
+            <nav id="main-nav" class="flex items-center justify-between">
+                <div class="left flex items-center ">
 
-            </div>
-        </nav>
+                    <div>
+                        <a href="#">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#expert">MyExpertise</a>
+                        <a href="#project">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="right">
+
+                    <!-- <button class="btn btn-primary "><a href="#contact">Contact</a></button> -->
+
+                </div>
+            </nav>
         </div>
-        <div class="hero flex ">
-            
-            
-                <img class="image" src="./images/myimage.png"  alt="" >
-        
+        <div class="hero flex col-lg-12">
 
-            <div class="right ">
-                <h6>Aatmic Tiwari</h6>
-                <h2>I am a Web <span>Developer</span></h2>
-                <p>I am a diligious,focused and punctual guy.I had done few projects of my own like a budgetry app,a keeper app,a to do list website.I know about HTML5,CSS3,Java script(ES5 and ES 6), Mongo db,mongoose,Node js,express and bit about react native.Always eager and fond of learning new things :)</p>
-                <div>
-                    <button class="btn btn-secondary">Download CV</button>
+
+            <img class="image" src="./images/myimage.png" alt="" class="img-responsive" >
+
+
+            <div class="right">
+                <h3>Aatmic Tiwari</h3>
+                <h4>I am a Web <span>Developer</span></h4>
+                <p>I am a diligious,focused and punctual guy.I had done few projects of my own like a budgetry app,a
+                    keeper app,a to do list website.I know about HTML5,CSS3,Java script(ES5 and ES 6), Mongo
+                    db,mongoose,Node js,express and bit about react native.Always eager and fond of learning new things
+                    :)</p>
+                <div class="button_cv">
+                    <button class="btn btn-secondary" style="height:50px; width:200px">DOWNLOAD CV</button>
                 </div>
             </div>
-            </div>
         </div>
-       </div> 
+        </div>
+        </div>
 
-        
+
 
     </header>
-
+<div class="narrow">
     <section id="about" class="me">
-        <div class="container flex items-center ">
+        <div class="container flex col-lg-8 col-md-6 col-xs-12">
+
+          
+                <!-- <img class="about-me-img img-responsive" src="./images/web.jpg" width="350" height="300"> -->
+            
 
             <div>
-                <img class="about-me-img" src=./images/web.jpg width="400" height="400">
-            </div>
-
-            <div >
                 <h1>About <span> Me</span></h1>
-                <h3>Hello! I'm Aatmic Tiwari</h3>
-                <p>I am second year student persuing B.tech from Bharati Vidyapeeth College of Engineering(Pune).I am a free style dancer as well and also a part of of non-organization club ,thus i know about marketing as well as publicity as well.And obviously know the things I mentioned above and worked on  my own projects whic include a keeper app,todolist website,blogging website(all are linked with mongo db),small projects like face recognition app,budgetry website,tic tac toe game and various other small projects. </p>
-                <div class="social">
+                <!-- <h3>Hello! I'm Aatmic Tiwari</h3> -->
+                <p>I am second year student persuing B.tech from Bharati Vidyapeeth College of Engineering(Pune).I am a
+                    free style dancer as well and also a part of of non-organization club ,thus i know about marketing
+                    as well as publicity as well.And obviously know the things I mentioned above and worked on my own
+                    projects whic include a keeper app,todolist website,blogging website(all are linked with mongo
+                    db),small projects like face recognition app,budgetry website,tic tac toe game and various other
+                    small projects. </p>
+              <h5 class="text-center"> Contact me on social media</h5>
+                <div class="social" >
 
-                    <a href="#"><img src="images/linkedin.png" alt=""></a>
+                    <a href="#"><img src="images/linkedin.png" alt="" class="center"></a>
                     <a href="#"><img src="images/facebook.png" alt=""></a>
                     <a href="#"><img src="images/twitter.png" alt=""></a>
                     <a href="#"><img src="images/instagram.png" alt=""></a>
-                    
+
                 </div>
-            
+
             </div>
 
         </div>
     </section>
+</div>
 
     <section id="expert" class="services">
         <div class="containers">
             <h1 class="section-heading"><span>My</span> Expertise</h1>
             <p>I can provide services in the following things</p>
-        <div class="card-wrapper">
-            <div class="card">
-                <img class="skills" src="./images/html-5.png">
-                <h2>HTML5</h2>
-                <p>The first and one of the most crucial language for development.</p>
+            <div class="card-wrapper">
+                <div class="card">
+                    <img class="skills" src="./images/html-5.png">
+                    <h2>HTML5</h2>
+                    <p>The first and one of the most crucial language for development.</p>
 
-            </div>
-            <div class="card">
-                <img class="skills" src="./images/css.png">
-                <h2>CSS3</h2>
-                <p>For styling purpose as well as bootstrap also.</p>
+                </div>
+                <div class="card">
+                    <img class="skills" src="./images/css.png">
+                    <h2>CSS3</h2>
+                    <p>For styling purpose as well as bootstrap also.</p>
 
-            </div>
-            <div class="card">
-                <img class="skills" src="./images/javascript.png">
-                <h2>Javascript</h2>
-                <p>The functioning of your web page will be done by this...one of the valuable language.</p>
+                </div>
+                <div class="card">
+                    <img class="skills" src="./images/javascript.png">
+                    <h2>Javascript</h2>
+                    <p>The functioning of your web page will be done by this...one of the valuable language.</p>
 
-            </div>
-            <div class="card">
-                <img class="skills" src="./images/nodejs.png">
-                <h2>Nodejs</h2>
-                <p>The first language on the ladder to become a backend developer.</p>
+                </div>
+                <div class="card">
+                    <img class="skills" src="./images/nodejs.png">
+                    <h2>Nodejs</h2>
+                    <p>The first language on the ladder to become a backend developer.</p>
 
-            </div>
-            <div class="card">
-                <img class="skills" src="./images/server.png">
-                <h2>Mongodb</h2>
-                <p>Your website is set but your data is to be managed somewhere ,thats where you need database management</p>
+                </div>
+                <div class="card">
+                    <img class="skills" src="./images/server.png">
+                    <h2>Mongodb</h2>
+                    <p>Your website is set but your data is to be managed somewhere ,thats where you need database
+                        management</p>
 
-            </div>
-            <div class="card">
-                <img class="skills" src="./images/react.png">
-                <h2>React</h2>
-                <p>The most used framework for developers in 2019 .</p>
+                </div>
+                <div class="card">
+                    <img class="skills" src="./images/react.png">
+                    <h2>React</h2>
+                    <p>The most used framework for developers in 2019 .</p>
 
+                </div>
             </div>
-        </div>
         </div>
     </section>
     <section class="freelancer">
-        <h1>I am Availble for Freelancer</h1>
+        <h1>I am Available for Freelancer</h1>
         <p>I provide high stander clean website .</p>
         <button class="btns btn-primary">Download CV</button>
     </section>
@@ -137,107 +148,118 @@
             <h1 class="section-heading"><span>My</span> Work</h1>
             <a href="#"></a>
             <p>my some of the projects are given below.Do Have a look.</p>
-        <div class="card-wrapping">
-       
-        <div class="card">
-            <div class="overlay">
-                <span>TodoList</span>
-                <a href="https://shrouded-reef-77578.herokuapp.com/"> Make your whole day todolist</a>
+            <div class="card-wrapping">
+
+                <div class="card">
+                    <div class="overlay">
+                        <span>TodoList</span>
+                        <a href="https://shrouded-reef-77578.herokuapp.com/"> Make your whole day todolist</a>
+                    </div>
+
+                    <img src="./images/todolist.png" alt="Todolist Website" width="400" height="200"></a>
+                </div>
+
+
+                <div class="card">
+                    <div class="overlay">
+                        <span>Blogging</span>
+                        <a href="https://powerful-thicket-63670.herokuapp.com/"> Turn you daily thoughts into ideas</a>
+                    </div>
+
+                    <img src="./images/blog.png" alt="Blogging Website" width="400" height="200"></a>
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Budget App</span>
+                        <a href="https://aatmic.github.io/budgetapp/">Spend your money wisely and keep record of it</a>
+                    </div>
+
+                    <img src="./images/budgetapp.png" alt="Budgeting  Website" width="400" height="200"></a>
+                </div>
+                <div class="card">
+
+                    <div class="overlay">
+                        <span>Keeper App</span>
+                        <a href="https://youthful-williams-aca0d1.netlify.app/">Keep your all secrets here(my first
+                            react app ,thus bit basic :)</a>
+                    </div>
+
+                    <img src="./images/keeperapp.png" alt="Keeper app Website" width="400" height="200"></a>
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Dice Game</span>
+                        <a href="https://aatmic.github.io/dicegame/">Quite bored...then lets play some game with
+                            computer</a>
+                    </div>
+
+                    <img src="./images/dicegame.png" alt="Dice Game" width="400" height="200"></a>
+                </div>
+
+                <div class="card">
+                    <div class="overlay">
+                        <span>Drum</span>
+                        <a href="https://aatmic.github.io/drumkit/">Make your own beats and rock 'N' roll</a>
+
+                    </div>
+                    <img src="./images/drumkit.png" alt="Drumkit" width="400" height="200"></a>
+                </div>
+
             </div>
-         
-            <img src="./images/todolist.png" alt="Todolist Website" width="400" height="200"></a>
         </div>
-       
-      
-        <div class="card">
-            <div class="overlay">
-                <span>Blogging</span>
-                <a href="https://powerful-thicket-63670.herokuapp.com/"> Turn you daily thoughts into ideas</a>
-            </div>
-           
-            <img src="./images/blog.png" alt="Blogging Website" width="400" height="200"></a>
-        </div>
-        <div class="card">
-            <div class="overlay">
-                <span>Budget App</span>
-                <a href="https://aatmic.github.io/budgetapp/">Spend your money wisely and keep record of it</a>
-            </div>
-         
-            <img src="./images/budgetapp.png" alt="Budgeting  Website" width="400" height="200"></a>
-        </div>
-        <div class="card">
-          
-            <div class="overlay">
-                <span>Keeper App</span>
-                <a href="https://youthful-williams-aca0d1.netlify.app/">Keep your all secrets here(my first react app ,thus bit basic :)</a>
-            </div>
-         
-            <img src="./images/keeperapp.png" alt="Keeper app Website" width="400" height="200"></a>
-        </div>
-        <div class="card">
-            <div class="overlay">
-                <span>Dice Game</span>
-                <a href="https://aatmic.github.io/dicegame/">Quite bored...then lets play some game with computer</a>
-            </div>
-           
-            <img src="./images/dicegame.png" alt="Dice Game" width="400" height="200"></a>
-        </div>
-       
-        <div class="card">
-            <div class="overlay">
-                <span>Drum</span>
-                <a href="https://aatmic.github.io/drumkit/">Make your own beats and rock 'N' roll</a>
-           
-            </div>
-            <img src="./images/drumkit.png" alt="Drumkit" width="400" height="200"></a>
-        </div>
-    
-    </div> 
-</div> 
     </section>
     <section id="contact" class="contact">
-        <div class="container">
-            <h1 class="section-heading">Contact</span> Me</span></h1>
+        
+            <h1 class="section-heading col-12">Contact</span> Me</span></h1>
             <p>Ready for collabrations on projects or want me to do some work for you.Bring It On</p>
             <div class="card-wrapped">
+                <div class="container col-md-4">
                 <div class="card">
                     <img src="./images/contact.png" height="100" width="100">
                     <h1>Call me/Whatsapp me </h1>
                     <h6>+91 9669094837</h6>
                 </div>
+            </div>
+            <div class="container col-md-4">
                 <div class="card">
                     <img src="./images/email.png" height="100" width="100">
                     <h1>Email-id </h1>
                     <h6>aatmictiwari19@gmail.com</h6>
                 </div>
+                </div>
+                <div class="container col-md-4 ">
                 <div class="card">
-                    <img src="./images/linkedin.png"  height="100" width="100">
+                    <img src="./images/linkedin.png" height="100" width="100">
                     <h1>Username</h1>
-                   <a href="https://www.linkedin.com/in/aatmic-tiwari-73765b1a5"><h6>https://www.linkedin.com/in/aatmic-tiwari-73765b1a5</h6></a>
+                    <a href="https://www.linkedin.com/in/aatmic-tiwari-73765b1a5">
+                        <h6>https://www.linkedin.com/in/aatmic-tiwari-73765b1a5</h6>
+                    </a>
                 </div>
             </div>
-        </div>
+            </div>
+     
 
     </section>
 
-  <footer>
+    <footer>
 
-    <div class="footer-social">
-        <a href="#"><img src="images/linkedin.png" alt=""></a>
-        <a href="#"><img src="images/facebook.png" alt=""></a>
-        <a href="#"><img src="images/twitter.png" alt=""></a>
-        <a href="#"><img src="images/instagram.png" alt=""></a>
-    </div>   
-    <div class="copyright">
-        
-        <p>© Copyright 2020 Aatmic Tiwari</p>
-    </div>
-  </footer>
-       
-            
+        <div class="footer-social">
+            <a href="#"><img src="images/linkedin.png" alt=""></a>
+            <a href="#"><img src="images/facebook.png" alt=""></a>
+            <a href="#"><img src="images/twitter.png" alt=""></a>
+            <a href="#"><img src="images/instagram.png" alt=""></a>
+        </div>
+        <div class="copyright">
 
-         
-     
-    
+            <p>© Copyright 2020 Aatmic Tiwari</p>
+        </div>
+    </footer>
+
+
+
+
+
+</div>
 </body>
-</html>        
+
+</html>
